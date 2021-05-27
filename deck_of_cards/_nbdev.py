@@ -2,9 +2,11 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"Card": "00_card.ipynb",
+         "Deck": "01_deck.ipynb"}
 
-modules = []
+modules = ["card.py",
+           "deck.py"]
 
 doc_url = "https://jbulow.github.io/deck_of_cards/"
 
